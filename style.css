@@ -1,0 +1,46 @@
+.container{
+    background-color: blue;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+form {
+    border: 2px solid;
+    width: 50%;
+    text-align: center;
+    background: linear-gradient(pink,purple);
+}
+input{
+    width: 90%;
+    padding: 12px 20 px;
+    margin: 8px 0;
+    display: inline-block ;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 7px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover{
+    opacity: 0.8;
+
+}
+.cancelbtn{
+    width: auto;
+    padding: 11px 18px;
+    background-color: red;
+
+} 
+.container{
+    padding: 16px;
+}
+span.pass{
+    float: right;
+    padding-top: 17px;
+}
